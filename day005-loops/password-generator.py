@@ -99,7 +99,7 @@ for _ in range(number_length):
 
 for _ in range(special_character_length):
     password += random.choice(special_characters)
-print(password)
+# print(password)
 password = "".join(random.sample(password, len(password)))
 print(password)
 
