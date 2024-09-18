@@ -54,7 +54,7 @@ def hangman_game():
 
     # Randomly select a word and initialize game state
     random_word = random.choice(word_list).lower()
-    life = len(random_word)
+    life = 6
     guessed_word = ['-' for _ in random_word]  # Use list to store guessed letters
 
     print(f"The word has {len(random_word)} letters.")
